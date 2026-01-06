@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="가수 갤러리 - 사진 및 비하인드 스토리">
+    <meta name="keywords" content="가수, 갤러리, 사진, 화보, 비하인드">
+    <title>갤러리 - 가수 이름</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">본문으로 건너뛰기</a>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">가수 이름</a>
+                
+                <button class="menu-toggle" aria-label="메뉴 열기" aria-expanded="false">
+                    <span class="menu-icon">☰</span>
+                </button>
+                
+                <nav aria-label="주 메뉴">
+                    <ul>
+                        <li><a href="index.html">홈</a></li>
+                        <li><a href="profile.html">프로필</a></li>
+                        <li><a href="albums.html">앨범</a></li>
+                        <li><a href="gallery.html">갤러리</a></li>
+                        <li><a href="performances.html">공연</a></li>
+                        <li><a href="contact.html">연락하기</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Page Header -->
+        <section class="hero">
+            <div class="container">
+                <h1>갤러리</h1>
+                <p>순간을 담은 특별한 기억들</p>
+            </div>
+        </section>
+
+        <!-- Gallery Filter -->
+        <section class="section" style="padding-top: var(--spacing-md); padding-bottom: 0;">
+            <div class="container">
+                <div style="text-align: center; margin-bottom: var(--spacing-md);">
+                    <button class="btn" style="margin: 0 var(--spacing-xs);" data-filter="all">전체</button>
+                    <button class="btn" style="margin: 0 var(--spacing-xs); background-color: var(--accent-color);" data-filter="performance">공연</button>
+                    <button class="btn" style="margin: 0 var(--spacing-xs); background-color: var(--accent-color);" data-filter="photoshoot">화보</button>
+                    <button class="btn" style="margin: 0 var(--spacing-xs); background-color: var(--accent-color);" data-filter="behind">비하인드</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Performance Photos -->
+        <section class="section" id="performance">
+            <div class="container">
+                <h2 class="section-title">공연 사진</h2>
+                
+                <div class="grid grid-3">
+                    <article class="card">
+                        <div class="card-image" style="height: 300px;" role="img" aria-label="공연 사진">
+                            🎤
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">서울 콘서트 2025</h3>
+                            <p class="card-text">올림픽공원 체조경기장</p>
+                        </div>
+                    </article>
+                    
+                    <article class="card">
+                        <div class="card-image" style="height: 300px;" role="img" aria-label="공연 사진">
+                            🎸
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">전국 투어 부산</h3>
+                            <p class="card-text">벡스코 오디토리움</p>
+                        </div>
+                    </article>
+                    
+                    <article class="card">
+                        <div class="card-image" style="height: 300px;" role="img" aria-label="공연 사진">
+                            🎹
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">어쿠스틱 라이브</h3>
+                            <p class="card-text">블루스퀘어 마스터카드홀</p>
+                        </div>
+                    </article>
+                    
+                    <article class="card">
+                        <div class="card-image" style="height: 300px;" role="img" aria-label="공연 사진">
+                            🎺
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">페스티벌 무대</h3>
+                            <p class="card-text">서울재즈페스티벌</p>
+                        </div>
+                    </article>
+                    
+                    <article class="card">
+                        <div class="card-image" style="height: 300px;" role="img" aria-label="공연 사진">
+                            🎻
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">오케스트라 협연</h3>
+                            <p class="card-text">예술의전당 콘서트홀</p>
+                        </div>
+                    </article>
+                    
+                    <article class="card">
+                        <div class="card-image" style="height: 300px;" role="img" aria-label="공연 사진">
+                            🎵
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">단독 콘서트</h3>
+                            <p class="card-text">고척스카이돔</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Photoshoot -->
+        <section class="section" id="photoshoot">
+            <div class="container">
+                <h2 class="section-title">화보 촬영</h2>
+                
+                <div class="grid grid-4">
+                    <article class="card">
+                        <div class="card-image" style="height: 250px;" role="img" aria-label="화보 사진">
+                            📸
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">매거진 A</h3>
+                            <p class="card-text">2025년 12월호 커버</p>
+                        </div>
+                    </article>
+                    
+                    <article class="card">
+                        <div class="card-image" style="height: 250px;" role="img" aria-label="화보 사진">
+                            📷
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">패션 화보</h3>
+                            <p class="card-text">2025년 가을 컬렉션</p>
+                        </div>
+                    </article>
+                    
+                    <article class="card">
+                        <div class="card-image" style="height: 250px;" role="img" aria-label="화보 사진">
+                            🎨
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">아트 프로젝트</h3>
+                            <p class="card-text">현대미술관 협업</p>
+                        </div>
+                    </article>
+                    
+                    <article class="card">
+                        <div class="card-image" style="height: 250px;" role="img" aria-label="화보 사진">
+                            🌟
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">앨범 재킷</h3>
+                            <p class="card-text">정규 3집 촬영</p>
+                        </div>
+                    </article>
+                    
+                    <article class="card">
+                        <div class="card-image" style="height: 250px;" role="img" aria-label="화보 사진">
+                            ✨
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">브랜드 화보</h3>
+                            <p class="card-text">광고 캠페인</p>
+                        </div>
+                    </article>
+                    
+                    <article class="card">
+                        <div class="card-image" style="height: 250px;" role="img" aria-label="화보 사진">
+                            💫
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">매거진 B</h3>
+                            <p class="card-text">2025년 여름 특집</p>
+                        </div>
+                    </article>
+                    
+                    <article class="card">
+                        <div class="card-image" style="height: 250px;" role="img" aria-label="화보 사진">
+                            🌸
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">봄 화보</h3>
+                            <p class="card-text">2024년 봄 시즌</p>
+                        </div>
+                    </article>
+                    
+                    <article class="card">
+                        <div class="card-image" style="height: 250px;" role="img" aria-label="화보 사진">
+                            🍂
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">가을 화보</h3>
+                            <p class="card-text">2024년 가을 시즌</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Behind the Scenes -->
+        <section class="section" id="behind">
+            <div class="container">
+                <h2 class="section-title">비하인드 스토리</h2>
+                
+                <div class="grid grid-2">
+                    <article class="card">
+                        <div class="card-image" style="height: 300px;" role="img" aria-label="비하인드 사진">
+                            🎬
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">뮤직비디오 촬영</h3>
+                            <p class="card-text">'함께 걷는 길' MV 제작 현장</p>
+                            <p class="card-text">
+                                새벽부터 밤까지 이어진 촬영. 완벽한 장면을 위해 
+                                스태프들과 함께 노력한 특별한 하루였습니다.
+                            </p>
+                        </div>
+                    </article>
+                    
+                    <article class="card">
+                        <div class="card-image" style="height: 300px;" role="img" aria-label="비하인드 사진">
+                            🎙️
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">녹음 스튜디오</h3>
+                            <p class="card-text">정규 3집 앨범 레코딩</p>
+                            <p class="card-text">
+                                수백 번의 테이크를 거쳐 완성한 앨범. 
+                                프로듀서님과 함께한 소중한 작업 시간들.
+                            </p>
+                        </div>
+                    </article>
+                    
+                    <article class="card">
+                        <div class="card-image" style="height: 300px;" role="img" aria-label="비하인드 사진">
+                            🎼
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">작곡 작업실</h3>
+                            <p class="card-text">새로운 곡 작업 중</p>
+                            <p class="card-text">
+                                밤을 새워 작업한 멜로디들. 영감이 떠오를 때마다 
+                                기록하고 다듬는 과정이 가장 즐겁습니다.
+                            </p>
+                        </div>
+                    </article>
+                    
+                    <article class="card">
+                        <div class="card-image" style="height: 300px;" role="img" aria-label="비하인드 사진">
+                            🎯
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">안무 연습</h3>
+                            <p class="card-text">콘서트 준비 과정</p>
+                            <p class="card-text">
+                                완벽한 무대를 위한 연습. 댄서들과 호흡을 맞추며 
+                                하나의 퍼포먼스를 만들어가는 과정.
+                            </p>
+                        </div>
+                    </article>
+                    
+                    <article class="card">
+                        <div class="card-image" style="height: 300px;" role="img" aria-label="비하인드 사진">
+                            📝
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">작사 노트</h3>
+                            <p class="card-text">가사 작업 과정</p>
+                            <p class="card-text">
+                                일상에서 느낀 감정들을 가사로 풀어내는 시간. 
+                                진솔한 이야기를 담기 위해 고민합니다.
+                            </p>
+                        </div>
+                    </article>
+                    
+                    <article class="card">
+                        <div class="card-image" style="height: 300px;" role="img" aria-label="비하인드 사진">
+                            🎪
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">리허설</h3>
+                            <p class="card-text">공연 전 최종 점검</p>
+                            <p class="card-text">
+                                무대 위에서 마지막으로 확인하는 모든 것들. 
+                                최고의 공연을 위한 준비 과정입니다.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Fan Photos -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">팬들과 함께</h2>
+                
+                <div class="grid grid-3">
+                    <article class="card">
+                        <div class="card-image" style="height: 250px;" role="img" aria-label="팬미팅 사진">
+                            💝
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">팬미팅 2025</h3>
+                            <p class="card-text">팬들과의 특별한 만남</p>
+                        </div>
+                    </article>
+                    
+                    <article class="card">
+                        <div class="card-image" style="height: 250px;" role="img" aria-label="팬사인회 사진">
+                            ✍️
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">팬사인회</h3>
+                            <p class="card-text">앨범 발매 기념</p>
+                        </div>
+                    </article>
+                    
+                    <article class="card">
+                        <div class="card-image" style="height: 250px;" role="img" aria-label="팬 이벤트 사진">
+                            🎁
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">생일 이벤트</h3>
+                            <p class="card-text">팬들의 깜짝 서프라이즈</p>
+                        </div>
+                    </article>
+                    
+                    <article class="card">
+                        <div class="card-image" style="height: 250px;" role="img" aria-label="공연 후 사진">
+                            🌟
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">공연 후 인사</h3>
+                            <p class="card-text">관객들과의 소통</p>
+                        </div>
+                    </article>
+                    
+                    <article class="card">
+                        <div class="card-image" style="height: 250px;" role="img" aria-label="팬 이벤트 사진">
+                            🎉
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">데뷔 기념일</h3>
+                            <p class="card-text">팬들과 함께한 축하</p>
+                        </div>
+                    </article>
+                    
+                    <article class="card">
+                        <div class="card-image" style="height: 250px;" role="img" aria-label="온라인 팬미팅 사진">
+                            💻
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">온라인 팬미팅</h3>
+                            <p class="card-text">전 세계 팬들과 소통</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Video Gallery -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">영상 갤러리</h2>
+                
+                <div class="grid grid-2">
+                    <article class="card">
+                        <div class="card-image" style="height: 250px;" role="img" aria-label="영상 썸네일">
+                            ▶️
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">콘서트 하이라이트</h3>
+                            <p class="card-text">2025 전국투어 베스트 장면 모음</p>
+                        </div>
+                    </article>
+                    
+                    <article class="card">
+                        <div class="card-image" style="height: 250px;" role="img" aria-label="영상 썸네일">
+                            ▶️
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">메이킹 필름</h3>
+                            <p class="card-text">앨범 제작 과정 다큐멘터리</p>
+                        </div>
+                    </article>
+                    
+                    <article class="card">
+                        <div class="card-image" style="height: 250px;" role="img" aria-label="영상 썸네일">
+                            ▶️
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">라이브 클립</h3>
+                            <p class="card-text">어쿠스틱 라이브 퍼포먼스</p>
+                        </div>
+                    </article>
+                    
+                    <article class="card">
+                        <div class="card-image" style="height: 250px;" role="img" aria-label="영상 썸네일">
+                            ▶️
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">브이로그</h3>
+                            <p class="card-text">일상 속 소소한 이야기</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="section">
+            <div class="container">
+                <div style="text-align: center; background: var(--bg-light); padding: var(--spacing-lg); border-radius: 8px;">
+                    <h2>더 많은 콘텐츠</h2>
+                    <p style="color: var(--text-light); margin-bottom: var(--spacing-md);">
+                        소셜 미디어에서 실시간으로 업데이트되는 사진과 영상을 만나보세요
+                    </p>
+                    <div style="display: flex; gap: var(--spacing-sm); justify-content: center; flex-wrap: wrap; font-size: 2rem;">
+                        <a href="#" aria-label="인스타그램" style="padding: var(--spacing-sm);">📷</a>
+                        <a href="#" aria-label="유튜브" style="padding: var(--spacing-sm);">📺</a>
+                        <a href="#" aria-label="트위터" style="padding: var(--spacing-sm);">🐦</a>
+                        <a href="#" aria-label="페이스북" style="padding: var(--spacing-sm);">👤</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; <span class="current-year">2026</span> 가수 이름. All rights reserved.</p>
+                <p>음악으로 세상을 더 아름답게</p>
+                
+                <ul class="social-links" aria-label="소셜 미디어 링크">
+                    <li><a href="#" aria-label="인스타그램">📷</a></li>
+                    <li><a href="#" aria-label="유튜브">📺</a></li>
+                    <li><a href="#" aria-label="트위터">🐦</a></li>
+                    <li><a href="#" aria-label="페이스북">👤</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
+
