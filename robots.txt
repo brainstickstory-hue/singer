@@ -1,0 +1,12 @@
+# robots.txt for leejieun.com
+
+User-agent: *
+Allow: /
+
+# Disallow admin or private directories (if any)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Sitemap location
+Sitemap: https://leejieun.com/sitemap.xml
+
